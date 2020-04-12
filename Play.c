@@ -185,7 +185,7 @@ APPLE checkCollision(SDL_Rect snake, APPLE apple, SDL_Renderer *render, WINDOWSI
   QUEUE *aux = nextToDelete;
   
   if(snake.x == apple.x && snake.y == apple.y)  {  // The snake ate the apple
-    blinkLED();       //  Each time the snake eats an apple, light up an LED (experimental)
+    system("sudo ./Comms.py g");       //  Each time the snake eats an apple, light up an LED (g = green)
     apple = drawApple(render, windowSize, apple, nextToDelete);
   }
 

@@ -6,6 +6,7 @@ int main(void)  {
 }
 
 void gameOver(SDL_Renderer *render) {
+  system("sudo ./Comms.py a");  // LEDs blinking (a = all)
   // The player has lost the game, write "Game Over" on the screen
   SDL_Event event;
 

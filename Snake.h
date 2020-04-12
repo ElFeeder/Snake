@@ -51,6 +51,5 @@ APPLE newCoordinates(APPLE apple, WINDOWSIZE windowSize);
 
 void paint(int startingX, int startingY, int endingX, int endingY, SDL_Renderer *render);
 void gameOver(SDL_Renderer *render);
-void blinkLED(void);
 
 #endif
